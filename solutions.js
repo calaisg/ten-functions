@@ -58,7 +58,7 @@ function addOne(value)
 
 function isEven(value)
 {
-    if (Number(value) % 2 === 0)
+    if (value % 2 == 0)
     {
         return true;
     }
