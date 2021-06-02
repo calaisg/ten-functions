@@ -44,6 +44,10 @@ function addOne(value)
 
 function isEven(value)
 {
+    if (value === false)
+    {
+        return false;
+    }
     return (value % 2 === 0)
 }
 
