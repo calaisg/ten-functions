@@ -23,27 +23,13 @@
 
 function isTrue(value)
 {
-    if(value === true)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return value === true;
 
 }
 
 function isFalse(value)
 {
-    if (value === false)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return value === false;
 }
 
 function not(value)
@@ -58,38 +44,17 @@ function addOne(value)
 
 function isEven(value)
 {
-    if (value % 2 == 0)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return (value % 2 === 0)
 }
 
 function isIdentical(value_one, value_two)
 {
-    if (value_one === value_two)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return (value_one === value_two);
 }
 
 function isEqual(value_one, value_two)
 {
-    if(value_one == value_two)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return (value_one == value_two);
 }
 
 function or(value_one, value_two)
